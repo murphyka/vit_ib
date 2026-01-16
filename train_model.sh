@@ -1,0 +1,12 @@
+python train_final.py \
+    --epochs 2 \
+    --batch-size 64 \
+    --patch-size 16 \
+    --workers 8 \
+    --save-interval 1000 \
+    --warmup-epochs-lr 10 \
+    --warmup-epochs-beta 10 \
+    --beta-scheduler-type linear \
+    --beta 1e0 \
+    --attn-head-bottleneck-dim 32 \
+    --ib-mlp-hidden-dim 64 \
