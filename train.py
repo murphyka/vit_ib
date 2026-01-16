@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import random
 import numpy as np
 
-import models_final as models
+import models
 
 import timm
 from timm.models.vision_transformer import VisionTransformer, Attention
