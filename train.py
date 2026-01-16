@@ -1,7 +1,3 @@
-"""
-Puts an IB after each attention head in a ViT.
-"""
-
 import argparse
 import math
 import os
